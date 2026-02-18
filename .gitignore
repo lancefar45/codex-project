@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Runtime state / output
+bot_state.json
+*.log
+bot_run_log.txt
+
+# Logs / trades / prices
+trade_log.csv
+trade_close_log.csv
+prices_log.csv
+
+# EU scan outputs (vi tilføjer whitelist-filen separat)
+eu_scan_all_*.csv
+eu_scan_blocked_*.csv
+eu_scan_unknown_*.csv
